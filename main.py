@@ -13,10 +13,10 @@ def check_password(psw):
   else:
      ("geçerli paraola")
 
-  password = input("paraola giriniz")
+password = input(" parola giriniz ")
 
-  try:
-    check_password(password)
+try:
+  check_password(password)
   
-  except Exception as ex :
+except Exception as ex:
     print(ex)
